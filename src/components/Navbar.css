@@ -1,0 +1,51 @@
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+.nav-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.nav-name{
+    color: white;
+    cursor: pointer;
+}
+.nav-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+    font-weight: 500;
+    gap: 1rem;
+    cursor: pointer;
+}
+.nav-link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.login-link ,.signup-link{
+    color: white;
+    text-decoration: none;
+    font:bold;
+    font-weight: 500;
+    width: 85px;
+    height: 30px;
+    border:1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
